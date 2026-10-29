@@ -43,5 +43,5 @@ Comandos para manipular os dados de dentro das tabelas:
   UPDATE clientes SET email = 'novo_email@email.com' WHERE id = 1;
  
 * **DELETE:** Apaga registros.
- ```sql
+  ```sql
   DELETE FROM clientes WHERE id = 1;
