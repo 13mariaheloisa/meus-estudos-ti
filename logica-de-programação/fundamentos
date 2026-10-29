@@ -40,10 +40,3 @@ Permitem que o programa tome decisões:
   } SENÃO {
       Imprimir("Reprovado");
   }
-
- ### 🔹 Estruturas de Repetição (Loops)
-Usadas para repetir um bloco de código várias vezes sem precisar reescrevê-lo:
-
-* **enquanto (while): Repete o bloco enquanto uma condição for verdadeira.**
-
-* **para (for): Repete o bloco um número determinado de vezes.**
