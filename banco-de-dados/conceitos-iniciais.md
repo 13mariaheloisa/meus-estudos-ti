@@ -33,12 +33,15 @@ Comandos para manipular os dados de dentro das tabelas:
 * **SELECT:** Consulta dados.
   ```sql
   SELECT * FROM clientes;
-  ```sql
+  
 * **INSERT:** Insere novos registros.
+  ```sql
   INSERT INTO clientes (nome, email) VALUES ('Ana', 'ana@email.com');
-  ```sql
+  
 * **UPDATE:** Atualiza registros existentes.
-  UPDATE clientes SET email = 'novo_email@email.com' WHERE id = 1;
   ```sql
+  UPDATE clientes SET email = 'novo_email@email.com' WHERE id = 1;
+ 
 * **DELETE:** Apaga registros.
+ ```sql
   DELETE FROM clientes WHERE id = 1;
